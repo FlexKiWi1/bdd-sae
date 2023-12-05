@@ -30,16 +30,6 @@ Parcours :
     nom_parcours CHAR,
     KEY{nom_parcours};
 
-TD :
-    nom_parcours CHAR,
-    nom_grp_TD CHAR,
-    no_niv INT,
-    KEY{nom_grp_TD};
-
-TP : 
-    no_grp_TD CHAR,
-    no_grp_TP INT
-    KEY{no_grp_TD, no_grp_TP};
 
 /*
 - Un parcours a 6 compétences, et 3 niveaux.
@@ -81,7 +71,6 @@ SAE :
     nom_parcours CHAR,
     libelle_sae CHAR,
     KEY{no_sae, no_sem};
-
 
 
 /*
