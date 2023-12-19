@@ -55,7 +55,7 @@ Parcours :
 
 /*Semaine 2 (A finir)*/
 Ressource :
-    code_ress CHAR,
+    code_ress CHAR, -- utiliser les types pour 'R', '2 chiffres'
     no_ress INT,
     no_sem INT, FK semestre.no_sem
     nom_parcours CHAR, FK parcours.nom_parcours
